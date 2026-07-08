@@ -10,7 +10,7 @@ This portfolio summarises selected projects across machine learning, healthcare 
 
 A local-only Python package for processing sensitive clinical gait and joint movement data, developed to support privacy-preserving research workflows.
 
-The original clinical data cannot be shared publicly due to privacy and data protection requirements. This repository is used to demonstrate the package structure, data processing logic, and feature engineering workflow while keeping all real patient data and execution outputs local.
+The original clinical data cannot be shared publicly due to privacy and data protection requirements. This repository demonstrates the package structure, data processing logic, and feature engineering workflow while keeping all real patient data and execution outputs local.
 
 **Key highlights:**
 - Refactored local research scripts into a modular Python package for clinical gait data processing
@@ -23,12 +23,13 @@ The original clinical data cannot be shared publicly due to privacy and data pro
 
 **Tech stack:** Python, pandas, NumPy, clinical gait analysis, time-series processing, ETL, feature engineering, privacy-preserving data workflows
 
-Repository: [Gait_Data_Pipeline](https://github.com/RogerRen0824/Gait_Data_Pipeline)
+**Repository:** [Gait_Data_Pipeline](https://github.com/RogerRen0824/Gait_Data_Pipeline)
+
 ---
 
 ### 2. LLM Research Intelligence System
 
-An end-to-end Retrieval-Augmented Generation (RAG) application for document-grounded question answering over user-provided PDF documents.
+An end-to-end Retrieval-Augmented Generation application for document-grounded question answering over user-provided PDF documents.
 
 **Key highlights:**
 - Built a local-first RAG pipeline for research document question answering
@@ -41,7 +42,7 @@ An end-to-end Retrieval-Augmented Generation (RAG) application for document-grou
 
 **Tech stack:** Python, FastAPI, Streamlit, PyMuPDF, Sentence Transformers, FAISS, DeepSeek API, pytest
 
-Repository: [llm-research-intelligence-system](https://github.com/RogerRen0824/llm-research-intelligence-system)
+**Repository:** [llm-research-intelligence-system](https://github.com/RogerRen0824/llm-research-intelligence-system)
 
 ---
 
