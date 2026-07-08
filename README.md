@@ -6,20 +6,21 @@ This portfolio summarises selected projects across machine learning, healthcare 
 
 ## Featured Projects
 
-### 1. Clinical Gait Analysis & Osteoarthritis Risk Prediction
+### 1. Clinical Gait Data Pipeline
 
-A machine learning project focused on osteoarthritis risk prediction using clinical gait time-series data.
+A Python package for processing clinical gait and joint movement data, focused on ETL, walking-zone segmentation, and interpretable biomechanical feature engineering.
 
 **Key highlights:**
-- Processed 200,000+ rows of 3D gait and joint-coordinate time-series data
-- Engineered interpretable biomechanical features including cadence, stride length, stance ratio, speed, asymmetry, and joint range of motion
-- Compared machine learning models including Logistic Regression, SVM, Decision Tree, and interpretable linear models
-- Applied Leave-One-Out Cross-Validation due to small clinical sample size
-- Accepted for presentation at the World Congress of Biomechanics 2026
+- Built a modular Python data pipeline for clinical gait and joint movement data
+- Implemented patient-level and joint-level data loading, cleaning, and filtering
+- Filtered joint movement records by patient IDs to support downstream analysis
+- Segmented walking speed signals into walking zones
+- Computed zone-level gait features including speed, cadence, stride length, and range of motion
+- Designed the package to keep data processing and machine learning modelling separate for cleaner experimentation
 
-**Tech stack:** Python, scikit-learn, pandas, NumPy, Matplotlib, machine learning, clinical time-series analysis
+**Tech stack:** Python, pandas, NumPy, clinical gait analysis, time-series processing, feature engineering, package structure
 
-Repository: Coming soon
+Repository: [Gait_Data_Pipeline](https://github.com/RogerRen0824/Gait_Data_Pipeline)
 
 ---
 
