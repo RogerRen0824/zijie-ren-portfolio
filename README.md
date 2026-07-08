@@ -8,20 +8,22 @@ This portfolio summarises selected projects across machine learning, healthcare 
 
 ### 1. Clinical Gait Data Pipeline
 
-A Python package for processing clinical gait and joint movement data, focused on ETL, walking-zone segmentation, and interpretable biomechanical feature engineering.
+A local-only Python package for processing sensitive clinical gait and joint movement data, developed to support privacy-preserving research workflows.
+
+The original clinical data cannot be shared publicly due to privacy and data protection requirements. This repository is used to demonstrate the package structure, data processing logic, and feature engineering workflow while keeping all real patient data and execution outputs local.
 
 **Key highlights:**
-- Built a modular Python data pipeline for clinical gait and joint movement data
+- Refactored local research scripts into a modular Python package for clinical gait data processing
+- Designed the workflow to run entirely on local machines without uploading sensitive patient data
 - Implemented patient-level and joint-level data loading, cleaning, and filtering
-- Filtered joint movement records by patient IDs to support downstream analysis
+- Filtered joint movement records by patient IDs to support downstream research analysis
 - Segmented walking speed signals into walking zones
-- Computed zone-level gait features including speed, cadence, stride length, and range of motion
-- Designed the package to keep data processing and machine learning modelling separate for cleaner experimentation
+- Computed interpretable biomechanical features including speed, cadence, stride length, and range of motion
+- Separated data processing from modelling to support cleaner experimentation and reproducibility
 
-**Tech stack:** Python, pandas, NumPy, clinical gait analysis, time-series processing, feature engineering, package structure
+**Tech stack:** Python, pandas, NumPy, clinical gait analysis, time-series processing, ETL, feature engineering, privacy-preserving data workflows
 
 Repository: [Gait_Data_Pipeline](https://github.com/RogerRen0824/Gait_Data_Pipeline)
-
 ---
 
 ### 2. LLM Research Intelligence System
