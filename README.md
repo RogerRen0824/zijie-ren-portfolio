@@ -23,19 +23,22 @@ Repository: Coming soon
 
 ---
 
-### 2. RAG / LLM Document Assistant
+### 2. LLM Research Intelligence System
 
-A retrieval-augmented generation workflow for document-based question answering.
+An end-to-end Retrieval-Augmented Generation (RAG) application for document-grounded question answering over user-provided PDF documents.
 
 **Key highlights:**
-- Built a document-based question answering workflow using retrieval and LLM generation
-- Implemented document ingestion, text chunking, embedding-based retrieval, and prompt design
-- Explored retrieval quality, context grounding, and response reliability
-- Practised local AI workflow configuration and API integration
+- Built a local-first RAG pipeline for research document question answering
+- Implemented PDF ingestion, text cleaning, chunking, embedding generation, and FAISS vector indexing
+- Developed FastAPI endpoints for retrieval and grounded answer generation
+- Integrated DeepSeek API through an OpenAI-compatible client
+- Built a Streamlit frontend for interactive document Q&A
+- Added source citation, retrieved evidence display, and lightweight retrieval quality metrics
+- Included basic pytest coverage and environment configuration via `.env.example`
 
-**Tech stack:** Python, LLMs, RAG, embeddings, vector search, prompt engineering
+**Tech stack:** Python, FastAPI, Streamlit, PyMuPDF, Sentence Transformers, FAISS, DeepSeek API, pytest
 
-Repository: Coming soon
+Repository: [llm-research-intelligence-system](https://github.com/RogerRen0824/llm-research-intelligence-system)
 
 ---
 
