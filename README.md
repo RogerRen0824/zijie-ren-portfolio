@@ -45,37 +45,6 @@ Repository: [llm-research-intelligence-system](https://github.com/RogerRen0824/l
 
 ---
 
-### 3. Titanic Survival Prediction - Kaggle ML Pipeline
-
-A structured machine learning pipeline for the Titanic survival prediction task.
-
-**Key highlights:**
-- Performed data cleaning, missing-value handling, and feature engineering
-- Built a reusable model training and evaluation workflow
-- Compared multiple classification models
-- Generated Kaggle-compatible submission files
-
-**Tech stack:** Python, pandas, NumPy, scikit-learn, machine learning classification
-
-Repository: Coming soon
-
----
-
-### 4. Data Visualisation & Stakeholder Reporting
-
-A portfolio section focused on communicating technical results to non-technical stakeholders.
-
-**Key highlights:**
-- Created simplified visual summaries from technical modelling outputs
-- Focused on clarity, interpretability, and stakeholder communication
-- Applied business-facing data storytelling principles
-
-**Tech stack:** Python visualisation, Tableau, Power BI, Excel
-
-Repository: Coming soon
-
----
-
 ## Skills Demonstrated
 
 - Machine learning model development
